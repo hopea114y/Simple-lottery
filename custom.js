@@ -13,13 +13,13 @@ function loto() {
 		var b = +prompt('Enter the number 2, before 36!!!', '1');
 	}	while (b > 36 || b < 0 && b != null);
 	do {
-		var c = +prompt('Enter the number 2, before 36!!!', '1');
+		var c = +prompt('Enter the number 3, before 36!!!', '1');
 	} while (c > 36 || c < 0 && c != null);
 	do {
-		var d = +prompt('Enter the number 2, before 36!!!', '1');
+		var d = +prompt('Enter the number 4, before 36!!!', '1');
 	} while (d > 36 || d < 0 && d != null);
 	do {
-		var e = +prompt('Enter the number 2, before 36!!!', '1');
+		var e = +prompt('Enter the number 5, before 36!!!', '1');
 	} while (e > 36 || e < 0 && e != null);
 	
 	var personNumbes = [Math.abs(a), Math.abs(b), Math.abs(c), Math.abs(d), Math.abs(e)];
